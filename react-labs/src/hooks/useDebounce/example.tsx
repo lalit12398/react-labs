@@ -29,7 +29,7 @@ function SearchBox() {
     return (
         <>
             <div>
-                <p>useDebounce example</p>
+                <label>useDebounce example</label>
                 <input
                     type="text"
                     onChange={(e) => handleChange(e)}
