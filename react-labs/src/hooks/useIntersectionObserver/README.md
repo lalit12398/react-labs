@@ -14,6 +14,15 @@ Intersection observer API provides a way to asynchronously observe change in the
 
 -   Intersection API cannot trigger logic based on exact numbers of pixels that moved/overlaped
 
-## Concept & Usage
+## Concept
 
-TBD
+-   Used to track element and perform actions on basis of visibility
+-   Accepts Target and options (root, threshold)
+-   Root: The element whose bounding box is used as the reference; null means the viewport.
+-   threshold(s): One or more ratios from 0 to 1 indicating what intersection percentages should trigger the callback (e.g., 0, 0.5, 1)
+
+## Usage
+
+-   Lazy loading of media near/in view
+-   Infinite Scroll: load more data
+-   in view animations
